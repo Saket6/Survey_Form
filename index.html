@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style++ Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="section">
+        <h2>SKILL++ SURVEY FORM</h2>
+        <h3>Thank you for taking the time to help us improve</h3>
+            <form action="backend.php">
+                <img src="logo.jpg" alt="" height="100px" width="100px">
+                <ul>
+                    
+                    
+                    <li class="li">What is your Name?</li>
+                    <input type="text" name="Enter your name:" id="" placeholder="Name">
+                    <li class="li">What is your Email?</li>
+                    <input type="text" name="Enter Your Email:" id="" placeholder="Email">
+                    <li class="li">What is your Age?</li>
+                    <input type="number" min=0 name="Your Age in Years:" id="" placeholder="Age">
+                    <li class="li"><label for="role">Which option describes your current role?</label></li>
+                    <select name="role" id="dropdown">
+                        <option value="d" class="o">Select</option>
+                        <option value="s" class="o">Student</option>
+                        <option value="f" class="o">Part Time Job</option>
+                        <option value="p" class="o">Full Time Job</option>
+                        <option value="f" class="o">Freelancer</option>
+                    </select>
+                    <ul>
+                    <li class="li">Would you recommend Skills to your friends?</li>
+                    <li><input type="radio" name="rec" id="def"> <label for="def">Definitely</label></li>
+                    <li> <input type="radio" name="rec" id="ns"><label for="ns">May Be</label>  </li>
+                    <li><input type="radio" name="rec" id="mb"> <label for="mb">Not Sure</label>       </li>
+                    <li class="li">What would you like to see improved?</li>
+                    <li><input type="checkbox" name="cb" id="fe"> <label for="fe">Front-End Projects</label></li>
+                    <li><input type="checkbox" name="cb" id="be"> <label for="be">Back-End Projects</label></li>
+                    <li><input type="checkbox" name="cb" id="ch"> <label for="ch">Challenges</label></li>
+                    <li class="li">Any Comments or Suggestions?</li>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write Here"></textarea>
+                    </ul>
+                    <ul id="sub">
+                    <input type="reset" value="Reset" id="submit">
+                    <input type="submit" value="Submit" id="submit">
+                </ul>
+                     
+                
+
+
+                </ul>
+            </form>
+
+    </div>
+
+</body>
+
+</html>

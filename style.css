@@ -1,0 +1,150 @@
+*{
+    border: 0;
+    padding: 0;
+}
+body::before{
+    content: "";
+    background-image: url("background.jpg");
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    opacity: 0.9;
+    z-index: -1;
+}
+body{
+    font-family: 'Baloo 2', cursive;
+    font-size: large;
+    background: url("back.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+.section{
+    
+    width: 90vh;
+    height: 200vh;
+    padding: 22px;
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section form{
+    color: rgb(130, 39, 4);
+    /* border: solid 4px rgb(28, 2, 70) ; */
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.71);
+    padding: 45px;
+    width: 420px;
+}
+.section form img{
+    border-radius: 60px;
+}
+.section form ul{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.section form ul select{
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.39);
+    border: solid 2px rgb(128, 6, 87) ;
+    color: white;
+    height: 33px;
+    border-radius: 11px;
+    width: 230px;
+}
+.section form ul select:hover{
+    cursor: pointer;
+}
+.section form ul select .o{
+    font-family: 'Baloo 2', cursive;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+   
+.section form ul .li{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(220, 130, 20);
+}
+.section form ul li{
+    color: rgb(220, 20, 107);
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+    
+.section form ul li label{
+    cursor: pointer;
+}
+.section form ul input{
+    outline: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+    border: solid 2px rgb(128, 6, 87);
+    border-radius: 10px;
+    padding: 7px;
+}
+.section form li{
+    list-style: none;
+
+}
+.section form ul ul li{
+    display: flex;
+flex-direction: row;
+justify-content: left;}
+.section form ul textarea
+{
+    resize: none;
+    outline: none;
+    border: solid 3px rgb(35, 1, 24) ;
+    border-radius: 10px;
+    background-color: #00000087;
+    color: white;
+}
+.section form ul #sub{
+    display: flex;
+    flex-direction: row;
+
+}
+.section form ul #sub #submit{
+    font-family: 'Baloo 2', cursive;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    height: 44px;
+    width: 180px;
+    margin: 15px;
+}
+.section form ul #sub #submit:hover{
+    background-color: rgb(220, 130, 20);
+    color: black;
+    font-weight: bold;
+}
+.section form ul li input[type="radio"]{
+height: 20px;
+width: 20px;
+}
+.section form ul li input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+ }
+ .section form ul li input[type="radio"]:hover{
+    cursor: pointer;
+ }
+ .section form ul li input[type="checkbox"]:hover{
+    cursor: pointer;
+ }
+
+    
