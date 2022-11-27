@@ -34,6 +34,9 @@ body{
     justify-content: center;
 
 }
+.section h2,h3{
+color: rgb(238, 11, 11);
+}
 .section form{
     color: rgb(130, 39, 4);
     /* border: solid 4px rgb(28, 2, 70) ; */
